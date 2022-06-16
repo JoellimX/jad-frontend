@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: grey;
+}
+
+li, a, button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    outline-style: solid;
+}
+
+
+.logo{
+    cursor:pointer;
+    width:80px;
+    border-radius: 50%;
+    margin-right:920px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li{
+    display:inline-block;
+    padding:0px 20px;
+    position: relative;
+}
+
+.nav__links li a{
+    transition: all 0.3 ease 0s;
+}
+
+.nav__links li a:hover{
+    color:blue;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: green;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.3 ease 0s;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.nav__links li a{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:14px;
+    padding:22px 14px;
+    text-decoration: none;
+}
+
+.nav__links li ul{
+    display:none;
+    position: absolute;
+    background-color: white;
+    padding:10px
+}
+
+.nav__links li:hover ul{
+    display:block;
+    position: absolute;
+    background-color: black;
+    padding:10px
+}
+
+.nav__links li ul li a{
+    padding:8px 14px;
+}
+
+.nav__links li ul li a:hover{
+    padding:8px 14px;
+    background-color: grey;
+}
+
+.nav__links li ul li{
+    width:150px;
+}
+
+.nav__links li ul li a{
+    background-color: grey;
+}
